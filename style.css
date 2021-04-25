@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+	padding: 0px;
+	
+}
+body {
+	font-size: 120%;  /*body font size*/
+	background: #F8F8FF; /*Body background*/
+
+}
+/*Header Styling*/
+.header {
+	width: 70%;
+	margin: 50px auto 0px;
+	color: white;
+	background: #5F9EA0;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+/*Error color*/
+.error {
+	color:red;
+}
+/*Form Styling*/
+form {
+	width: 70%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+/*Style labels*/
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+/*Style text inputs*/
+.input-group input {
+	margin: 10px 0px 10px 0px;
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+/*Styling Selectors*/
+.input-group select {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+/*Styling textarea*/
+.input-group textarea {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+/*Styling btn botton*/
+.btn {
+	margin: 5px;
+	height: 40px;
+	width: 94%;
+	padding: 5px 10px;
+	font-size: 17px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+/*styling button*/
+button {
+	height: 30px;
+	width: 20%;
+	padding: 1px 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+	
+}
+/*Styling Table*/
+table {
+	align-items: center;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+  }
+  
+/*Styling Table header*/
+  th{
+	color:rgb(255, 255, 255);
+	background: #5F9EA0;
+	width:0px auto;
+	height: 50px;
+	text-align:left;
+	font-size: larger;
+   }
+/*Styling table rows*/
+   td {
+	height: 50px;
+	text-align:left;
+   }
+
+   a{
+	   margin: 0px auto;
+	   padding: 5px;
+	   text-decoration: none;
+   }
+/*Styling search bar*/
+.search {
+	width: 80%;
+	margin: 10px auto;
+	padding: 5px;
+	border: 2px solid #082955;
+	position: sticky;
+}
+
+.next {
+	width: 52%;
+	margin: 0px auto;
+	padding: 5px;
+	
+}
+
+.p {
+	text-align: center;
+}
